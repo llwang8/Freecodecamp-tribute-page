@@ -1,5 +1,5 @@
 body {
-    font-family: Lucida Console, serif;
+    font-family: 'Bitter', serif;
     font-size: 2em;
 
 
@@ -19,19 +19,21 @@ body {
 .special-margin {
     margin:20px;
 }
-hr {
-    color: grey;
-    width: 80%;
-    font-weight: 5px;
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 h3 {
     text-align: center;
     font-style: italic;
 }
-footer {
-    font-size: 14px;
+dl {
+    padding-right: 56px;
+
 }
+
 blockquote {
 
   border-left: none;
@@ -50,13 +52,18 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+footer {
+    font-size: 14px;
+}
+hr {
+    color: grey;
+    width: 80%;
+    font-weight: 5px;
+}
 a {
     color: #000000;
     font-style: italic;
 }
-dl {
-    padding-right: 50px;
 
-}
 
 
